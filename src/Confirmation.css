@@ -1,0 +1,41 @@
+.Confirmation{
+    background: rgba(1, 1, 1, 0.3);
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+.Confirmation-Wrap{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px hsla(0,0%,6%,.1), 0 5px 10px hsla(0,0%,6%,.2), 0 15px 40px hsla(0,0%,6%,.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+}
+.Confirmation-Wrap p{
+    width: 100%;
+}
+.Confirmation-Wrap button{
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border: #07c;
+    padding: 5px 10px;
+}
+.Confirmation-Wrap button.Cancel{
+    background: transparent;
+    color: gray;
+}

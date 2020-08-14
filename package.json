@@ -1,6 +1,6 @@
 {
     "name": "react-confirmation-dialog",
-    "version": "1.0.1",
+    "version": "1.0.11",
     "description": "✔️ Simple way to create a modal form with 2 options: accept and cancel.",
     "main": "./build/index.js",
     "scripts": {

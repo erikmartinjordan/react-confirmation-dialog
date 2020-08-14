@@ -19,7 +19,7 @@ npm i --save react-confirmation-dialog
 
 ```jsx
 import React, { useState } from 'react';
-import Confirmation        from './Confirmation'
+import Confirmation        from 'react-confirmation-dialog';
 
 function App() {
     
